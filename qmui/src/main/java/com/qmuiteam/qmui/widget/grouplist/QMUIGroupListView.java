@@ -16,6 +16,8 @@ import com.qmuiteam.qmui.util.QMUIResHelper;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 通用的列表, 常用于 App 的设置界面。
@@ -216,6 +218,11 @@ public class QMUIGroupListView extends LinearLayout {
         public Section(Context context) {
             mContext = context;
             mItemViews = new SparseArray<>();
+            List aaa = new ArrayList<>();
+            for (int i = aaa.size() - 1; i >= 0; i--) {
+
+            }
+
         }
 
         /**
