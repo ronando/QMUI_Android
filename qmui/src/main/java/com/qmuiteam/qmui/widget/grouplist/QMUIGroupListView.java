@@ -218,11 +218,6 @@ public class QMUIGroupListView extends LinearLayout {
         public Section(Context context) {
             mContext = context;
             mItemViews = new SparseArray<>();
-            List aaa = new ArrayList<>();
-            for (int i = aaa.size() - 1; i >= 0; i--) {
-
-            }
-
         }
 
         /**
